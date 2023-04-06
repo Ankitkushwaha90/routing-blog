@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'routing-blog';
+  memberData=[
+    {name:'Hello', email:'welcome.com'},
+    {name:'Sam', email:'Sam.com'},
+    {name:'Bhasker', email:'Bhasker.com'},
+    {name:'peter', email:'peter.com'}
+  ]
 }
